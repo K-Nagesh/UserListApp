@@ -13,7 +13,7 @@ import { User } from "../types/User";
 import users from '../data/users.json';
 import { DrawerActions, useNavigation } from "@react-navigation/native";
 
-const UserListScreen: React.FC = () => {
+const UserListScreen = () => {
 
   const navigation = useNavigation()
   const [selectedUserType, setSelectedUserType] = useState<number | null>(0);
